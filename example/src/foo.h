@@ -15,4 +15,12 @@ class Foo {
      */
     int xyz(int                param_one,
             const std::string& param_two);
+
+
+    /** Function to show at-pre
+     *
+     *  @pre A precondition is shown with a green
+     *  stripe to the left.
+     */
+    void precond();
 };
